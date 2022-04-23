@@ -1,0 +1,23 @@
+# exp
+exp: 'hqs'
+seed: 33
+weight_dir: 'weight/'
+log_dir: 'log/'
+pred_dir: 'pred/'
+
+# dataloader
+num_works: 4
+pin_memory: True
+
+# training settings
+batch_size: 16
+lr: 5.e-4
+loss: 'l1'
+epoch: 1500
+ema: True
+ema_decay: 0.999
+
+# model settings
+buffer_size: 7
+n_iter: 10
+
