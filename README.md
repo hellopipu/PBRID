@@ -38,7 +38,7 @@ Raw (RGGB) image denoising results on test set:
 </table>
 
 
-# model Param |  inference speed (img 256x256, single V100)
+model Param |  inference speed (img 256x256, single V100)
 -------|-------
 97.2K| 10.1ms
 
